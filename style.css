@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+body {
+  width: 100%;
+  padding: 0 0 50px;
+  margin: 0;
+}
+
+#black-line {
+  background: black;
+  height: 5px;
+  width: 100%;
+}
+
+#main-header {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+#main-header img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.main-text {
+  color: #222;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1.5px;
+  line-height: 0.9;
+
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 50px;
+
+  position: relative;
+  top: 62%;
+}
+
+.main-text h1 {
+  font-size: 65px;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 431px) {
+  .main-text h1 {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main-text h1 {
+    font-size: 55px;
+  }
+}
+
+.main-text h3 {
+  font-size: 30px;
+  margin: 0 0 10px;
+}
+
+#page-main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-main {
+  padding: 0 50px;
+  color: #222;
+}
+
+.summary {
+  margin: 60px 0 0;
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.summary-list {
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  list-style: square;
+}
+
+.quote {
+  margin: 60px 0;
+  padding: 10px 50px;
+  position: relative;
+  background: #444;
+
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 45px;
+  letter-spacing: 1.1px;
+}
+
+.quote::before {
+  content: "„";
+  transform: rotate(180deg);
+  font-size: 130px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.title {
+  margin: 60px 0 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  margin: 40px 0 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.detail {
+  margin: 25px 0 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.position {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.detail li {
+  list-style: square;
+}
+
+hr {
+  margin: 50px 25px;
+  border: solid 2px #222;
+}
